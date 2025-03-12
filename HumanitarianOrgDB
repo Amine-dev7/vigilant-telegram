@@ -1,0 +1,7 @@
+cd C:\Backup  # Aller dans le dossier où est enregistré MaBase.bak
+git init  # Initialiser un dépôt Git local
+git add MaBase.bak  # Ajouter le fichier de sauvegarde
+git commit -m "HumanitarianOrgDB"
+git branch -M main
+git remote add origin https://github.com/Amine-dev7/BaseDeDonnees.git
+git push -u origin main  # Pousser vers GitHub
